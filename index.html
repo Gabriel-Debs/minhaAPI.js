@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>🚀 Exercícios de API</h1>
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Novo Post</h2>
+            <input type="text" id="input-titulo" placeholder="Título do post">
+            <textarea id="input-texto" placeholder="Texto do post"></textarea>
+            <button onclick="criarCardManual()">Criar Card</button>
+            <div id="area-novos-posts"></div>
+        </section>
+
+        <hr>
+
+        <section class="container">
+            <h2>Ações da API</h2>
+            <button id="btn-usuarios">Carregar Usuários</button>
+            <button id="btn-posts">Carregar Posts</button>
+        </section>
+
+        <div id="lista-usuarios"></div>
+
+        <div id="container-posts-api" class="flex-container"></div>
+    </main>
+
+    <script src="api.js"></script>
+</body>
+</html>

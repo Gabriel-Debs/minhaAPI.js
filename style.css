@@ -1,0 +1,40 @@
+body { font-family: sans-serif; background: #f0f2f5; padding: 20px; }
+.container { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+
+/* Ex 11: Lado a Lado */
+.flex-container {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.post-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    flex: 1; /* Faz os cards dividirem o espaço */
+    min-width: 250px;
+    border-radius: 8px;
+}
+
+/* Ex 2: Estilização do Card Manual */
+.card-manual {
+    background: #e3f2fd;
+    border-left: 5px solid #2196f3;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input, textarea { display: block; width: 100%; margin-bottom: 10px; padding: 8px; }
+button { background: #6200ee; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 4px; }
+button:hover { background: #3700b3; }
+.card-usuario { padding: 5px; border-bottom: 1px solid #ccc; }
+
+
+#area-novos-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
